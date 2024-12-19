@@ -1,0 +1,10 @@
+extend ../layout/index
+
+block contenido
+    div(class="py-10")
+        h1(class="text-4xl my-10 text-center font-extrabold") Bienes 
+            span(class="font-normal") Raices
+        h2.text-center.text-2xl= pagina
+
+        a(href="/propiedades/crear" 
+        class="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold px-5 py-3 rounded-md uppercase inline-block my-5 text-center w-full sm:w-auto") Crear propiedad

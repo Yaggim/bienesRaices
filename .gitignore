@@ -1,0 +1,16 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar logs
+*.log
+
+# Ignorar configuraciones de entorno
+.env
+
+# Ignorar carpetas de construcción
+dist/
+build/
+
+# Ignorar sistema operativo y editores de texto
+.DS_Store
+.vscode/
